@@ -110,6 +110,17 @@
             android:textSize="18sp"
             android:text="Carrot" />
 
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/purple_500"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
     </LinearLayout>
 
 
