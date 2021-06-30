@@ -67,7 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:backgroundTint="@drawable/default_option_border_bg"
+            android:background="@drawable/default_option_border_bg"
             android:gravity="center"
             android:padding="16dp"
             android:textColor="@color/textColorHint"
@@ -79,7 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:backgroundTint="@drawable/default_option_border_bg"
+            android:background="@drawable/default_option_border_bg"
             android:gravity="center"
             android:padding="16dp"
             android:textColor="@color/textColorHint"
@@ -91,7 +91,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:backgroundTint="@drawable/default_option_border_bg"
+            android:background="@drawable/default_option_border_bg"
             android:gravity="center"
             android:padding="16dp"
             android:textColor="@color/textColorHint"
@@ -103,7 +103,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:backgroundTint="@drawable/default_option_border_bg"
+            android:background="@drawable/default_option_border_bg"
             android:gravity="center"
             android:padding="16dp"
             android:textColor="@color/textColorHint"
@@ -115,11 +115,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:background="@color/purple_500"
+            android:backgroundTint="@color/purple_500"
             android:text="Submit"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:padding="16dp"/>
 
     </LinearLayout>
 
